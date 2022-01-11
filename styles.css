@@ -48,6 +48,19 @@ header p {
     padding-bottom: 10px;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
 nav {
     margin-top: 30px;
     margin-bottom: 4%;
@@ -55,6 +68,7 @@ nav {
     text-align: center;
     padding: 10px;
 }
+
 nav a {
     margin-right: 30px;
     color: white;
@@ -77,6 +91,12 @@ main ul {
     text-align: center;
     list-style-type: none;
     padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.beach {
+    border-radius: 0;
+    width: 250px;
 }
 
 
